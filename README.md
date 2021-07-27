@@ -1,8 +1,8 @@
 # FastQ_Analyzer
 Opens and reads a FastQ file, determining various statistics for each line, for further visualization or analysis downstream.
 Produces an .out file containing the following information:
-  -Length of sequence\n
-  -GC %\n
+  -Length of sequence
+  -GC %
   -Average quality score of the sequence
   -Position of the base with the minimum quality score
   -Proportion of the sequence w/ a "good" score [>=30]
