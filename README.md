@@ -1,6 +1,6 @@
 # FastQ_Analyzer
-Opens and reads a FastQ file, determining various statistics for each line, for further visualization or analysis downstream.
-Produces an .out file containing the following information:
+_Opens and reads a FastQ file, determining various statistics for each line, for further visualization or analysis downstream.
+Produces an .out file containing the following information:_
   1. Length of sequence
   2. GC %
   3. Average quality score of the sequence
@@ -9,7 +9,7 @@ Produces an .out file containing the following information:
   6. Proportion of the sequence w/ an "ok" score [>=20]
   7. Proportion of the sequence w/ a "bad" score [<20]
 
-It then prints to the terminal:
+_It then prints to the terminal:_
   1. Number of sequences in the FastQ file
   2. Average length of the sequences in the FastQ file
 
